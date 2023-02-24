@@ -3,36 +3,63 @@
     justify-content: space-between;
     align-items: center;
     flex: 33%;
-    padding: 15px 0 15px 0;
+    padding: 38px 0 40px 0;
 
-    &__elem {
-        width: 201px;
-    }
-
-    &__link {
-        font-family: 'Red Hat Text';
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 21px;
-        color: #FFFFFF;
-        text-decoration: none;
-        transition: all 400ms ease;
-
-
-        &:hover {
-            color: $main-color;
-        }
-    }
 
 
     &__social {
+        padding-left: 0;
         display: flex;
         justify-content: center;
         align-items: center;
         list-style: none;
 
         &-item {
-            margin-left: 21px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            border: 2px solid #66C05D;
+            border-radius: 100%;
+            margin-right: 20px;
         }
+    }
+
+    &__adress {
+        padding-left: 78px;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+    }
+
+
+    &__phone {
+        margin-right: 35px;
+        text-decoration: none;
+        color: #000000;
+        transition: all 400ms ease;
+
+        &:hover {
+            color: #66C05D;
+        }
+    }
+}
+
+.subfooter {
+    background: #EFEFEF;
+
+    &__items {
+        padding: 25px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    &__rights,
+    &__politics {
+        font-size: 12px;
+        line-height: 14px;
+        color: #828282;
     }
 }

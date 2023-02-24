@@ -70,14 +70,13 @@
     }
 
     &__sections {
-        padding: 30px 0;
         display: flex;
         justify-content: center;
         list-style: none;
     }
 
     &__goods {
-        padding: 0 20px;
+        padding: 30px 20px;
         font-size: 16px;
     }
 }
