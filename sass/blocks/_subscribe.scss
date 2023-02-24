@@ -1,0 +1,65 @@
+.subscribe {
+    background: #EFEFEF;
+    padding: 50px 0 133px 0;
+
+    &__cards {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__card {
+        position: relative;
+        width: 460px;
+        background: #66C05D;
+        padding: 36px 40px 33px 40px;
+        padding-left: 40px;
+        padding-top: 36px;
+        padding-bottom: 33px;
+    }
+
+    &__title {
+
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+    }
+
+    &__info {
+        width: 240px;
+        padding-top: 19px;
+        font-size: 14px;
+        line-height: 20px;
+        color: #FFFFFF;
+        padding-bottom: 25px;
+    }
+
+    &__form {
+        width: 195px;
+        height: 35px;
+        padding-left: 26px;
+        background: #FFFFFF;
+        border-radius: 30px;
+        border: none;
+
+        &::placeholder {
+            color: #C4C4C4;
+            opacity: 1;
+        }
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &__mail {
+        position: absolute;
+        right: 45px;
+        top: 36px
+    }
+
+    .button-info {
+        padding: 8px 26px;
+        letter-spacing: unset;
+    }
+}

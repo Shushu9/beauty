@@ -1,0 +1,20 @@
+.sale {
+    background: url(../img/sale-bg.jpg) center center/cover no-repeat;
+    padding: 190px 0 195px;
+
+    &__title {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+        color: #FFFFFF;
+    }
+
+    &__desc {
+        padding-top: 40px;
+        padding-bottom: 44px;
+        width: 308px;
+        font-size: 14px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+}

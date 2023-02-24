@@ -1,0 +1,58 @@
+.goods {
+    background: #EFEFEF;
+    padding: 68px 0 50px 0;
+
+    &__header {
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title {
+        padding-top: 10px;
+    }
+
+    &__image {
+        margin-right: 46px;
+    }
+
+
+    &__cards {
+        padding-top: 16px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__card {
+        position: relative;
+        width: 255px;
+        height: 338px;
+        background: #FFFFFF;
+        padding: 25px 0 0 0;
+    }
+
+    &__img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    &__subtitle {
+        padding: 20px 30px 0 30px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #333333;
+    }
+
+    &__price {
+        padding-top: 12px;
+        padding-bottom: 15px;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 25px;
+        letter-spacing: 0.05em;
+        text-align: center;
+        color: #000000;
+    }
+}

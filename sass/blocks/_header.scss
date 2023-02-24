@@ -1,0 +1,83 @@
+.header {
+
+    &__wrapper {
+        background: #EFEFEF;
+    }
+
+    &__menu {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding-left: 0;
+    }
+
+    &__item {
+        padding: 16px 15px;
+        font-size: 14px;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: #333333;
+        transition: all 400ms ease;
+
+        &:hover {
+            color: #66C05D;
+        }
+    }
+
+    &__info {
+        padding: 20px 0 20px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    &__logo {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+
+        span {
+            color: #66C05D;
+            padding-left: 16px;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 42px;
+            letter-spacing: 0.1em;
+        }
+    }
+
+    &__contacts {
+        padding-top: 20px;
+    }
+
+    &__phone {
+        margin-right: 35px;
+        font-weight: 400;
+        font-size: 16px;
+        text-decoration: none;
+        color: #000000;
+        transition: all 400ms ease;
+
+        &:hover {
+            color: #66C05D;
+        }
+    }
+
+    &__divider {
+        border: 1px solid #EFEFEF;
+    }
+
+    &__sections {
+        padding: 30px 0;
+        display: flex;
+        justify-content: center;
+        list-style: none;
+    }
+
+    &__goods {
+        padding: 0 20px;
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+<!-- EN lang causes validation error because we have Lorem ipsum text -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty</title>
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="icons/favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header__wrapper">
+            <ul class="header__menu container">
+                <li class="header__item"><a href="#" class="header__link">Доставка</a></li>
+                <li class="header__item"><a href="#" class="header__link">Оплата</a></li>
+                <li class="header__item"><a href="#" class="header__link">Отзывы</a></li>
+                <li class="header__item"><a href="#" class="header__link">Вопрос - ответ</a></li>
+                <li class="header__item"><a href="#contacts" class="header__link">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="header__info container">
+            <a href="#" class="header__logo">
+                <img src="icons/logo.svg" alt="logo">
+                <span>BEAUTY</span>
+            </a>
+            <div class="header__contacts">
+                <a href="tel:+78121234567" class="header__phone">8 (812) 123-45-67</a>
+                <button class="button button-contact">Обратный звонок</button>
+            </div>
+        </div>
+        <div class="header__divider"></div>
+        <nav class="container">
+            <ul class="header__sections">
+                <li class="header__goods"><a href="#" class="header__link">Парикмахерская</a></li>
+                <li class="header__goods"><a href="#" class="header__link">Барбершоп</a></li>
+                <li class="header__goods"><a href="#" class="header__link">Маникюр</a></li>
+                <li class="header__goods"><a href="#" class="header__link">Педикюр</a></li>
+                <li class="header__goods"><a href="#" class="header__link">Массаж</a></li>
+                <li class="header__goods"><a href="#" class="header__link">Мебель</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="sale">
+            <div class="container">
+                <h1 class="sale__title">Супер кресло</h1>
+                <p class="sale__desc">Текст акции всегда отражает суть, а не просто
+                    болтовню, поэтому внимательнее
+                </p>
+                <button class="button button-info">Подробнее</button>
+            </div>
+        </section>
+
+        <section class="goods">
+            <div class="container">
+                <div class="goods__header">
+                    <h2 class="goods__title">Специальные предложения</h2>
+                    <img src="icons/truck.svg" alt="truck" class="goods__image">
+                </div>
+
+                <div class="goods__cards">
+                    <div class="goods__card">
+                        <img src="img/chair.png" alt="chair" class="goods__img">
+                        <h3 class="goods__subtitle">Парикмахерское кресло «Норм» гидравлическое</h3>
+                        <div class="goods__price">9 900 ₽ </div>
+                        <button class="button button-buy">Купить</button>
+                    </div>
+                    <div class="goods__card">
+                        <img src="img/chair.png" alt="chair" class="goods__img">
+                        <h3 class="goods__subtitle">Парикмахерское кресло «Норм» гидравлическое</h3>
+                        <div class="goods__price">9 900 ₽ </div>
+                        <button class="button button-buy">Купить</button>
+                    </div>
+                    <div class="goods__card">
+                        <img src="img/chair.png" alt="chair" class="goods__img">
+                        <h3 class="goods__subtitle">Парикмахерское кресло «Норм» гидравлическое</h3>
+                        <div class="goods__price">9 900 ₽ </div>
+                        <button class="button button-buy">Купить</button>
+                    </div>
+                    <div class="goods__card">
+                        <img src="img/chair.png" alt="chair" class="goods__img">
+                        <h3 class="goods__subtitle">Парикмахерское кресло «Норм» гидравлическое</h3>
+                        <div class="goods__price">9 900 ₽ </div>
+                        <button class="button button-buy">Купить</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="subscribe">
+            <div class="container">
+                <div class="subscribe__cards">
+                    <div class="subscribe__card">
+                        <h3 class="subscribe__title">Получайте бонусы и подарки</h3>
+                        <p class="subscribe__info">Каждый месяц разыгрываем
+                            10 000 рублей для наших клиентов</p>
+                        <form action="#">
+                            <input class="subscribe__form" name="name" required placeholder="Введите e-mail"
+                                type="email">
+                        </form>
+                        <img src="icons/mail.svg" alt="mail" class="subscribe__mail">
+                    </div>
+                    <div class="subscribe__card">
+                        <h3 class="subscribe__title">Заходите к нам</h3>
+                        <p class="subscribe__info">Более 300 магазинов
+                            по всей России</p>
+                        <button class="button button-info">Карта магазинов</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <ul class="footer__social" id="social">
+                    <li>
+                        <a href="#" class="footer__social-item">
+                            <img src="icons/youtube.svg" alt="youtube">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__social-item">
+                            <img src="icons/vk.svg" alt="vk">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__social-item">
+                            <img src="icons/facebook.svg" alt="facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__social-item">
+                            <img src="icons/instagram.svg" alt="instagram">
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="footer__adress">198555, Невский пр. 140, офис 140</div>
+                <div class="footer__contacts">
+                    <a href="tel:+78121234567" class="footer__phone">8 (812) 123-45-67</a>
+                    <button class="button button-contact">Обратный звонок</button>
+                </div>
+            </div>
+        </div>
+        <div class="subfooter">
+            <div class="subfooter__items container">
+                <div class="subfooter__rights">
+                    Лучший магазин (с) 2019 Все права защищены. Интернет-магазин оборудования для салонов красоты
+                </div>
+                <div class="subfooter__politics">
+                    Политика конфиденциальности
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    </div>
+    </section>
+
+    <!-- <script src="index.js"></script> -->
+</body>
+
+</html>
